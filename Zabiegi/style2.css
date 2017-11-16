@@ -1,0 +1,50 @@
+body {
+  background-image: url("http://backgroundimages.online/upload/iblock/9da/9da21e33fab5f6446c5ccf65bb9c2ad6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.header h2 {
+  font-family: "Cinzel", serif;
+  font-size: 550%;
+  opacity: 0.7;
+  text-align: center;
+  padding-top: 230px; }
+
+h2:hover {
+  color: #FFC0CB; }
+
+h3 {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 450%;
+  font-color: #FFC0CB;
+  opacity: 0.6; }
+
+.container {
+  position: absolute;
+  left: 28%;
+  top: 55%; }
+
+h3:hover {
+  color: #FFC0CB; }
+
+.container ul li {
+  font-size: 120%;
+  line-height: 220%; }
+
+h5 {
+  font-family: "Cinzel", serif;
+  padding: 20px;
+  position: relative;
+  right: 8%; }
+
+.footer {
+  position: absolute;
+  left: 73%;
+  top: 200%;
+  font-family: "Indie Flower", sans-serif; }
+
+#span {
+  color: #FFC0CB; }
+
+/*# sourceMappingURL=style2.css.map */
