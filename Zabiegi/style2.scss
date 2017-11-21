@@ -1,8 +1,9 @@
 $font-header: 'Cinzel', serif;
 $font-paragraph: 'Dancing Script', sans-serif;
 $font-h5: 'Quattrocento Sans', sans-serif;
-$font-footer: 'Indie Flower', sans-serif;
+$font-signature: 'Indie Flower', sans-serif;
 $span-color: #FFC0CB;
+$font-footer: 'Montserrat', sans-serif;
 
 body {
 	background-image: url("http://backgroundimages.online/upload/iblock/9da/9da21e33fab5f6446c5ccf65bb9c2ad6.jpg");
@@ -41,12 +42,22 @@ h5 {
 	position: relative;
 	right: 8%;
 }
-
-.footer {
-	position: absolute;
-	left: 88%;
-	top: 200%;
+footer {
+	border-top: 15px solid white;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+footer p {
 	font-family: $font-footer;
+}
+.signature {
+	font-family: $font-signature;
+	font-size: 100%;
+	float: right;
+	margin: 0 auto;
 }
 #span {
 	color: $span-color;
@@ -69,5 +80,13 @@ h5 {
 	margin-top: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-bottom: 70px;
 	width: 80%;
+}
+#zabiegiZluszczajace {
+	font-size: 390%;
+	margin-top: 23px;
+}
+#stylizacjaRzes {
+	margin-top: 85px;
 }

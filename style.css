@@ -26,10 +26,15 @@ body {
   position: absolute;
   top: 35%;
   padding-left: 15px;
-  font-size: 400%;
+  font-size: 380%;
   line-height: 100%;
-  font-family: "Dancing Script", sans-serif;
+  font-family: serif;
   opacity: 0.6; }
+
+.paragraph p:hover {
+  color: white;
+  opacity: 1;
+  border-bottom: 2px white dotted; }
 
 .footer {
   position: absolute;

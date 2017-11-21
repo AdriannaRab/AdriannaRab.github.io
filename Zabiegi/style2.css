@@ -33,11 +33,22 @@ h5 {
   position: relative;
   right: 8%; }
 
-.footer {
-  position: absolute;
-  left: 88%;
-  top: 200%;
-  font-family: "Indie Flower", sans-serif; }
+footer {
+  border-top: 15px solid white;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 20px; }
+
+footer p {
+  font-family: "Montserrat", sans-serif; }
+
+.signature {
+  font-family: "Indie Flower", sans-serif;
+  font-size: 100%;
+  float: right;
+  margin: 0 auto; }
 
 #span {
   color: #FFC0CB; }
@@ -58,6 +69,14 @@ h5 {
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 70px;
   width: 80%; }
+
+#zabiegiZluszczajace {
+  font-size: 390%;
+  margin-top: 23px; }
+
+#stylizacjaRzes {
+  margin-top: 85px; }
 
 /*# sourceMappingURL=style2.css.map */
